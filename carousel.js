@@ -13,3 +13,10 @@ $(document).ready(function(){
     $(".sp_menu_toggle").slideToggle();
   });
 });
+
+$(window).load(function(){
+  $(".items_photo img").click(function(){
+    var img_src = $(this).attr("src");
+    $(".productsl img").attr("src", img_src);
+  });
+});
