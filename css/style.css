@@ -726,4 +726,20 @@ table td {
     /* text-align: center; */
     vertical-align: middle;
 }
+.sp_menu_toggle{
+    color:#ffffff;
+    background-color:#ff6d77;
+    text-align:left;
+    padding:15px 20px;
+}
+.sp_menu_toggle li{
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+
+}
+.border{
+    border-bottom:solid 0.5px;
+    border-color:white;
+}
 }
